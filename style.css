@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  width: 480px;
+  height: 480px;
+}
+
+.cell {
+  background-color: #fffad0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+}
+
+.cell-painted {
+  background-color: #ece800;
+}
+
+.player-1, .player-2 {
+  height: 70%;
+  width: 70%;
+  border-radius: 50%;
+}
+
+.player-1 {
+  background-color: #000;
+}
+
+.player-2 {
+  background-color: #fff;
+}
+
+.hint {
+  background-color: #ffd6a0;
+}
