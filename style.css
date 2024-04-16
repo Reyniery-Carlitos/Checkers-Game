@@ -30,7 +30,7 @@
   background-color: #ece800;
 }
 
-.player-1, .player-2 {
+.player-1, .player-2, .queen {
   height: 70%;
   width: 70%;
   border-radius: 50%;
@@ -46,4 +46,8 @@
 
 .hint {
   background-color: #ffd6a0;
+}
+
+.queen {
+  background-color: #ff0000;
 }
